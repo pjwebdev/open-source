@@ -1,0 +1,1 @@
+Enter the content of scripts.js to "Before </body> tag" custom code field in the page settings in Webflow.
