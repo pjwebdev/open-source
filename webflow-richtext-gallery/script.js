@@ -1,3 +1,4 @@
+<script>
 var galleryPlaces = document.querySelectorAll('.blog-post-text h6');
 galleryPlaces.forEach(function(el) {
 var match = el.textContent.match(/[a-zA-Z-]+/g);
@@ -8,3 +9,4 @@ if (match.length) {
     el.appendChild(fragment);
 }
 })
+</script>
